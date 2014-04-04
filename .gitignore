@@ -1,0 +1,8 @@
+# First, ignore everything
+com/*
+mongoose.exe
+KenneyAssets.lnk
+# Now, whitelist anything that's a directory
+# And all the file types you're interested in.
+!*.js
+!src/com/README.txt
